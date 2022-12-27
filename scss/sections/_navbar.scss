@@ -1,0 +1,14 @@
+@use '../custom' as *;
+
+
+.navbar{
+
+    li{
+         padding: 0 0.7rem 0.7rem;
+    }
+    a{
+        color:$secondary;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+}
