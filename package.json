@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Building my personal portfolio website with bootstrap and sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Learning",
+    "bootstap",
+    "Personal",
+    "portfolio",
+    "website",
+    "Learning",
+    "sass"
+  ],
+  "author": "Soliat Omolara",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.3",
+    "postcss-cli": "^10.1.0"
+  }
+}
