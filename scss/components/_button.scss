@@ -1,0 +1,14 @@
+@use '../custom' as *;
+
+.btn-rounded{
+    position: relative;
+    padding: 0.5375rem 1rem;
+    font-weight: 500;
+    text-align-last: center;
+    margin: 0;
+    background-color: $primary;
+
+    &:hover{
+        background-color: $purple-dim;
+    }
+}
