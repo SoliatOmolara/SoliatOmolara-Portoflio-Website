@@ -10800,6 +10800,11 @@ textarea.form-control-lg {
   text-transform: none;
 }
 
+.about-section {
+  font-family: "Poppins", sans-serif;
+  color: #380645;
+}
+
 .navbar li {
   padding: 0 0.7rem 0.7rem;
 }
@@ -10812,6 +10817,12 @@ textarea.form-control-lg {
 .intro-section {
   background-color: #380645;
   padding: 10rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.about-section {
+  background-color: #d9a8f6;
   width: 100%;
   height: 100%;
 }
