@@ -25,8 +25,21 @@
 .about-section{
     font-family: 'Poppins', sans-serif;
     color: $primary;
+    
 }
 .display-5{
     font-family: 'Poppins', sans-serif;
     color: $primary;
+    font-weight: 600;
+}
+
+.skills-section{
+    font-family: 'Poppins', sans-serif;
+}
+.display-8{
+    
+    &--title{
+        display: inline-block;
+        font-size: 2rem;
+    }
 }
