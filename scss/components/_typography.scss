@@ -25,21 +25,37 @@
 .about-section{
     font-family: 'Poppins', sans-serif;
     color: $primary;
-    
-}
-.display-5{
-    font-family: 'Poppins', sans-serif;
-    color: $primary;
-    font-weight: 600;
+
+    p{
+        font-size: 1.02rem;
+    }
+
 }
 
 .skills-section{
     font-family: 'Poppins', sans-serif;
-}
-.display-8{
+
+    .display-8{
+        font-family: 'Poppins', sans-serif;
     
-    &--title{
-        display: inline-block;
-        font-size: 2rem;
+    
+        &--title{
+            font-size: 1.8rem;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            text-transform: capitalize;
+            display: inline-block;
+
+         }
+    }  
+
+}
+.header{
+    font-family: 'Poppins', sans-serif;
+    color: $secondary;
+
+    &__description{
+        font-size: 1.02rem;
     }
+
 }

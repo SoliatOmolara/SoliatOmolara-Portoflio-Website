@@ -10804,20 +10804,30 @@ textarea.form-control-lg {
   font-family: "Poppins", sans-serif;
   color: #380645;
 }
-
-.display-5 {
-  font-family: "Poppins", sans-serif;
-  color: #380645;
-  font-weight: 600;
+.about-section p {
+  font-size: 1.02rem;
 }
 
 .skills-section {
   font-family: "Poppins", sans-serif;
 }
-
-.display-8--title {
+.skills-section .display-8 {
+  font-family: "Poppins", sans-serif;
+}
+.skills-section .display-8--title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
   display: inline-block;
-  font-size: 2rem;
+}
+
+.header {
+  font-family: "Poppins", sans-serif;
+  color: #d9a8f6;
+}
+.header__description {
+  font-size: 1.02rem;
 }
 
 .navbar li {
@@ -10844,19 +10854,23 @@ textarea.form-control-lg {
 
 .skills-section {
   background-color: #d9a8f6;
-  padding: 3rem 0;
+  padding: 1rem 0;
   width: 100%;
   height: 100%;
   position: relative;
 }
-
-.skills-2__content .icon {
-  max-width: 50%;
-  max-height: 50%;
+.skills-section__content {
+  padding: 1rem;
+  margin-top: 5rem;
 }
-.skills-2__pic {
-  max-width: 50%;
-  max-height: 50%;
+.skills-section__pic {
+  max-width: 100%;
+}
+
+.project {
+  background-color: #380645;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
