@@ -10778,7 +10778,7 @@ textarea.form-control-lg {
   background-color: #380645;
 }
 .btn-rounded:hover {
-  background-color: #8e3bbf;
+  background-color: #d9a8f6;
 }
 
 .display-2 {
@@ -10805,29 +10805,51 @@ textarea.form-control-lg {
   color: #380645;
 }
 .about-section p {
-  font-size: 1.02rem;
+  font-size: 1.12rem;
+  color: #380645;
 }
 
 .skills-section {
-  font-family: "Poppins", sans-serif;
+  color: #380645;
 }
-.skills-section .display-8 {
-  font-family: "Poppins", sans-serif;
+.skills-section li {
+  color: #380645;
+  font-size: 1.12rem;
 }
-.skills-section .display-8--title {
-  font-size: 1.8rem;
+
+.display-8 {
+  font-family: "Poppins", sans-serif;
+  color: #380645;
+}
+.display-8__title {
+  color: #380645;
+  font-size: 1.3rem;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
-  display: inline-block;
+  text-decoration: underline;
 }
 
 .header {
   font-family: "Poppins", sans-serif;
-  color: #d9a8f6;
+  color: #380645;
 }
 .header__description {
-  font-size: 1.02rem;
+  color: #d9a8f6;
+  font-size: 1.12rem;
+}
+.header__title {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  color: #380645;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+}
+.header p {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+  color: #380645;
 }
 
 .navbar li {
@@ -10868,7 +10890,14 @@ textarea.form-control-lg {
 }
 
 .project {
-  background-color: #380645;
+  padding: 4rem 0;
+  background-color: #d9a8f6;
+  width: 100%;
+  height: 100%;
+}
+
+.project-box {
+  position: relative;
   width: 100%;
   height: 100%;
 }

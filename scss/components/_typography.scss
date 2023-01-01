@@ -1,5 +1,6 @@
 @use '../custom' as *;
 
+// INTRO SECTION 
 .display-2 {
     margin-bottom: 1rem;
     text-transform: capitalize;
@@ -22,40 +23,60 @@
         text-transform: none;
     }
 }
+
+// ABOUT SECTION 
 .about-section{
     font-family: 'Poppins', sans-serif;
     color: $primary;
-
     p{
-        font-size: 1.02rem;
+        font-size: 1.12rem;
+        color: $primary;
     }
-
 }
 
+// SKILLS SECTION  
 .skills-section{
-    font-family: 'Poppins', sans-serif;
+    color: $primary;
 
-    .display-8{
-        font-family: 'Poppins', sans-serif;
-    
-    
-        &--title{
-            font-size: 1.8rem;
-            font-weight: 600;
-            font-family: 'Poppins', sans-serif;
-            text-transform: capitalize;
-            display: inline-block;
-
-         }
-    }  
-
+    li{
+        color: $primary;
+        font-size: 1.12rem;
+    }
 }
+.display-8{
+    font-family: 'Poppins', sans-serif;
+    color: $primary;
+    
+    &__title{
+        color: $primary;
+        font-size: 1.3rem;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+    }
+} 
+
+// PROJECT SECTION 
 .header{
     font-family: 'Poppins', sans-serif;
-    color: $secondary;
+    color: $primary;
 
     &__description{
-        font-size: 1.02rem;
+        color: $secondary;
+        font-size: 1.12rem;
     }
-
+    &__title{
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        color: $primary;
+        font-size: 1.3rem;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: underline;
+    }
+    p{
+        margin-left: 0.5rem;
+        font-size: 1rem; 
+        color: $primary;  
+    }
 }

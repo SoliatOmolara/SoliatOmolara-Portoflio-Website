@@ -79,19 +79,19 @@
       <!-- SKILLS AND TECHNOLOGY SECTION  -->
       <section id="skills" class="skills-section">
         <div class="container">
-          <div class="row text-center">
+          <div class="row text-center mt-4">
             <h1 class="display-3 fw-bold">Skills and Technologies</h1>
           </div>
         </div>
         <!-- CONTENTS -->
-        <div class="container skills-2">
+        <div class="container">
           <!-- PROGRAMMING AND MACHINE LEARNING aria-hidden="true"  -->
           <div class="row mt-15 mb-5">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 skills mt-4">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 skills mt-4 text-start">
               <div class="skills__content">
                 <img src="Image/icons/code.png" alt="icon" class="img-fluid">
-                <h4 class="display-8--title mt-1">Programming and Machine Learning</h4>
-                <p class="lh-lg">
+                <h4 class="display-8__title mt-1">Programming and Machine Learning</h4>
+                <p class="lh-lg skills-paragraph">
                   <ul>
                     <li><b>Languages:</b> Python, R</li>
                     <li><b>Surpervised Learning:</b> Regression, Classification</li>
@@ -101,7 +101,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 skills mt-4 text text-end">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 skills mt-4 text-end">
               <div class="skills__pic">
                 <img src="Image/arts/fcoder.svg" alt="photo" class="img-fluid">
               </div>
@@ -117,7 +117,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 skills mt-4">
               <div class="skills__content">
                 <img src="Image/icons/code.png" alt="icon" class="img-fluid">
-                <h4 class="display-8--title mt-1">Data Manipulation and Database Management</h4>
+                <h4 class="display-8__title mt-1">Data Manipulation and Database Management</h4>
                 <p class="lh-lg">
                   <ul>
                     <li><b>Data Manipulation skills:</b> Data Processing, Data Mining, Data Wraggling
@@ -134,12 +134,12 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 skills mt-4">
               <div class="skills__content">
                 <img src="Image/icons/code.png" alt="icon" class="img-fluid"><br>
-                <h4 class="display-8--title mt-1">Version Control and Others</h4>
+                <h4 class="display-8__title mt-1">Version Control and Others</h4>
                 <p class="lh-lg">
                   <ul>
                     <li><b>Version Control:</b> Git, Github</li>
                     <li><b>Others:</b> Ms Office, Google office, Bootstrap
-                    HTML, CSS, SCSS, Flask, Django, FastAPI</li>
+                    HTML, CSS, SCSS, Flask, Django, FastAPI, Communication, Teamwork, Curiosity, and Focused.</li>
                   </ul>
                 </p>
               </div>
@@ -154,11 +154,70 @@
       
       <!-- THE PROJECT SECTION  -->
       <section id="project" class="project header">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d9a8f6" fill-opacity="1" d="M0,192L60,170.7C120,149,240,107,360,106.7C480,107,600,149,720,149.3C840,149,960,107,1080,96C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#d9a8f6" fill-opacity="1" d="M0,192L60,170.7C120,149,240,107,360,106.7C480,107,600,149,720,149.3C840,149,960,107,1080,96C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> -->
         <div class="container">
           <div class="row text-center">
             <h1 class="display-3 fw-bold text-capitalize">Projects</h1>
-            <p class="header__description lead">Below are some of the projects I have worked on.</p>
+            <p class="header__description lead text-center">Below are some of the projects I have worked on.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="project-box shadow">
+                <img src="Image/project/Chris.jpg" alt="project 1 image" title="project 1 photos" class="img-fluid">
+                <div class="project-info">
+                  <h4 class="header__title">Health Insurance Charges Prediction with Regression</h4>
+                  <p class="lh-lg">
+                    I used Linear regression as baseline model while I added the L1 and L2 regularization 
+                    and Polynomial Features as an addition model to predict the health insurance of some individuals 
+                    using features like gender, age, bmi, number of children, and smoking habits.<br>
+                    For this project, I performed basic data cleaning process to prepare the data, I visualize several 
+                    relationship and corrrelation between the features, I used feature engineering to transform the categorical
+                    features, and finally I made use of <strong>GridSearchCV</strong> for hyperparameter tuning
+                    and for choosing the best parameters for the Linear models.<br>
+                </p>
+                <button type="button" class="rounded-pill btn btn-outline-secondary btn-rounded mt-2 mb-2">
+                  <a class="nav-link" href="https://github.com/SoliatOmolara/Health-Insurance-Charges-prediction-with-Regression"> View Project.</a>
+                </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="project-box shadow">
+                <img src="Image/project/dom.jpg" alt="project 1 image" title="project 1 photos" class="img-fluid">
+                <div class="project-info">
+                  <h4 class="header__title">Airline Passenger's Satisfaction Prediction</h4>
+                  <p class="lh-lg">
+                    I made use of classification models like <strong>K-Nearest Neigbours,
+                    Logistic Regression, and Decision Tree</strong> to build a predictive model to predict whether
+                    passengers are satisfied with the airline services.
+                    I performed basic data cleaning and visualizations to prepare and show relationships of the features,
+                    I also analyzed the categorical variables and used one-hot encoding to transformed them.
+                </p>
+                <button type="button" class="rounded-pill btn btn-outline-secondary btn-rounded mt-2 mb-2">
+                  <a class="nav-link" href="https://github.com/SoliatOmolara/Airline-Passenger-s-Satisfaction-Prediction">View Project.</a>
+                </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="project-box shadow">
+                <img src="Image/project/olena.jpg" alt="project 1 image" title="project 1 photos" class="img-fluid">
+                <div class="project-info">
+                  <h4 class="header__title">Exploratory Data Analysis for Machine Learning</h4>
+                  <p class="lh-lg">
+                    I performed Data Cleaning to take care of missing values,data, dupicates,  and outliers to prepare the
+                    dataset for further analysis. I also work on the Data analysis to show to the relationships and correlations between all 
+                    the features of the dataset using visualization and logical inferences. And finally, I performed hypothesis testing, Feature 
+                    engineering and variable transformations to prepare the dataset for machine learning prediction.<br>
+                    This project show clearly all the processes for performing exploratory data analysis for machine 
+                    learning projects, while showing clear explanations for the each steps.<br>
+                  </p>
+                  <button type="button" class="rounded-pill btn btn-outline-secondary btn-rounded mt-2 mb-2">
+                    <a class="nav-link" href="https://github.com/SoliatOmolara/EDA-on-Machine-Learning-Repo">View Project.</a>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -1,7 +1,13 @@
 @use '../custom' as *;
 
 .project{
-    background-color: $primary;
+    padding: 4rem 0;
+    background-color: $secondary;
+    width: 100%;
+    height: 100%;
+}
+.project-box{
+    position: relative;
     width: 100%;
     height: 100%;
 }
