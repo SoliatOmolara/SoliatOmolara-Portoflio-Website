@@ -10852,6 +10852,28 @@ textarea.form-control-lg {
   color: #380645;
 }
 
+.heading {
+  font-family: "Poppins", sans-serif;
+  color: #380645;
+}
+.heading__description {
+  color: #380645;
+  font-size: 1.12rem;
+}
+.heading__title {
+  color: #d9a8f6;
+  font-size: 1.18rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.heading__title a {
+  color: #d9a8f6;
+  font-size: 1.18rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
 .navbar li {
   padding: 0 0.7rem 0.7rem;
 }
@@ -10898,6 +10920,13 @@ textarea.form-control-lg {
 
 .project-box {
   position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.article {
+  padding: 4rem 0;
+  background-color: #d9a8f6;
   width: 100%;
   height: 100%;
 }

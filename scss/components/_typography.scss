@@ -80,3 +80,28 @@
         color: $primary;  
     }
 }
+// ARTICLE SECTION
+.heading{
+    font-family:'Poppins', sans-serif;
+    color: $primary;
+
+    &__description{
+        color: $primary;
+        font-size: 1.12rem;
+    }
+    &__title{
+        color: $secondary;
+        font-size: 1.18rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        
+        a{
+            color: $secondary;
+            font-size: 1.18rem;
+            font-weight: 400;
+            font-family: 'Poppins', sans-serif;
+            text-decoration: none;
+        }
+
+    }
+}

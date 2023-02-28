@@ -1,0 +1,8 @@
+@use '../custom' as *;
+
+.article{
+    padding: 4rem 0;
+    background-color: $secondary;
+    width: 100%;
+    height: 100%;
+}
