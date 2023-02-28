@@ -76,6 +76,7 @@
     }
     p{
         margin-left: 0.5rem;
+        font-family: 'Poppins', sans-serif;
         font-size: 1rem; 
         color: $primary;  
     }
@@ -91,17 +92,21 @@
     }
     &__title{
         color: $secondary;
-        font-size: 1.18rem;
-        font-weight: 400;
+        font-size: 1.13rem;
         font-family: 'Poppins', sans-serif;
         
         a{
             color: $secondary;
-            font-size: 1.18rem;
-            font-weight: 400;
+            font-size: 1.14rem;
             font-family: 'Poppins', sans-serif;
             text-decoration: none;
         }
 
+    }
+    .accordion-body{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem; 
+        color: $primary;  
+        text-align: justify;
     }
 }
