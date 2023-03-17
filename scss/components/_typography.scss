@@ -36,6 +36,7 @@
 
 // SKILLS SECTION  
 .skills-section{
+    font-family: 'Poppins', sans-serif;
     color: $primary;
 
     li{
@@ -109,4 +110,26 @@
         color: $primary;  
         text-align: justify;
     }
+}
+
+// CONNECT SECTION
+.connect{
+    font-family:'Poppins', sans-serif;
+    color: $primary;
+
+    &__description{
+        font-family:'Poppins', sans-serif;
+        color: $primary;
+        font-size: 1.12rem;
+    }
+    &__title{
+        color: $primary;
+        font-size: 1.12rem;
+    }
+
+}
+.submit{
+    font-family:'Poppins', sans-serif;
+    color: $secondary;
+    font-size: 1.12rem;
 }

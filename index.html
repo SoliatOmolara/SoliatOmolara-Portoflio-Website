@@ -22,16 +22,19 @@
               <a class="nav-link " aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#project">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Articles</a>
+              <a class="nav-link" href="#article">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Connect</a>
             </li>
           </ul>
         </div>
@@ -118,7 +121,7 @@
               <div class="skills__content">
                 <img src="Image/icons/code.png" alt="icon" class="img-fluid">
                 <h4 class="display-8__title mt-1">Data Manipulation and Database Management</h4>
-                <p class="lh-lg">
+                <p class="lh-lg skills-paragraph">
                   <ul>
                     <li><b>Data Manipulation skills:</b> Data Processing, Data Mining, Data Wraggling
                     Data Analysis, Data Visualization, Feature Engineering <br><b>Tools:</b>
@@ -135,7 +138,7 @@
               <div class="skills__content">
                 <img src="Image/icons/code.png" alt="icon" class="img-fluid"><br>
                 <h4 class="display-8__title mt-1">Version Control and Others</h4>
-                <p class="lh-lg">
+                <p class="lh-lg skills-paragraph">
                   <ul>
                     <li><b>Version Control:</b> Git, Github</li>
                     <li><b>Others:</b> Ms Office, Google office, Bootstrap
@@ -309,9 +312,45 @@
           </div>
         </div>
       </section>
+      <!-- THE CONNECT SECTION -->
+      <section id="connect" class="connect-me">
+        <div class="container">
+          <div class="row text-center">
+            <h1 class="connect display-3 fw-bold text-capitalize">Connect With Me</h1>
+            <p class=" connect__description lead">You can connect with me by sending me message below for collaborations and gigs.</p>
+          </div>
+          <!-- START THE CONNECT CONTENT -->
+        <div class="row">
+          <div class="col-12 col-lg-6 bg-primary shadow p-3 connect-me__pic">
+            <img src="Image/arts/contactme.svg" alt="photo" class="img-fluid">
+          </div>
+          <div class="col-12 col-lg-6 bg-secondary shadow p-3">
+            <div class="form w-100 pb-2">
+              <h4 class="connect__title text-center mb-3">Send your message here!!!</h4>
+              <form>
+                <div class="form-row">
+                  <div class="col mb-3">
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col mb-3 ">
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                  <div class="mb-3 ">
+                    <textarea name="message" placeholder="Message"  id="message" rows="8" class="shadow form-control form-control-lg"> </textarea>
+                  </div>
+                  <div class="col-auto">
+                    <button type="submit" class="submit btn btn-primary ">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
 
 
-
+      
 
 
     <script src="/assets/js/bootstrap.bundle.js"></script>
