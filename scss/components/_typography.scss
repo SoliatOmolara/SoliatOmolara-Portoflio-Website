@@ -122,14 +122,16 @@
         color: $primary;
         font-size: 1.12rem;
     }
-    &__title{
-        color: $primary;
-        font-size: 1.12rem;
-    }
-
 }
 .submit{
     font-family:'Poppins', sans-serif;
     color: $secondary;
-    font-size: 1.12rem;
+    font-size: 1.02rem;
+}
+input[type="text"]::-webkit-input-placeholder{
+    font-family:'Poppins', sans-serif;
+    color: $primary;
+}
+input[type="text"]::-webkit-textfield-decoration-container{
+    color: $primary;
 }

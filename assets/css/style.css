@@ -10889,15 +10889,20 @@ textarea.form-control-lg {
   color: #380645;
   font-size: 1.12rem;
 }
-.connect__title {
-  color: #380645;
-  font-size: 1.12rem;
-}
 
 .submit {
   font-family: "Poppins", sans-serif;
   color: #d9a8f6;
-  font-size: 1.12rem;
+  font-size: 1.02rem;
+}
+
+input[type=text]::-webkit-input-placeholder {
+  font-family: "Poppins", sans-serif;
+  color: #380645;
+}
+
+input[type=text]::-webkit-textfield-decoration-container {
+  color: #380645;
 }
 
 .navbar li {
@@ -10968,6 +10973,14 @@ textarea.form-control-lg {
   max-width: 100%;
   max-height: 100%;
   padding: 1rem;
+}
+
+.form-control {
+  background-color: #d9a8f6;
+  border-radius: 0.5rem;
+  border-color: #380645;
+  border-width: 0.2rem;
+  outline-color: #380645;
 }
 
 /*# sourceMappingURL=style.css.map */

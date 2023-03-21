@@ -13,5 +13,10 @@
         padding: 1rem;
     }
 }
-
-
+.form-control{
+    background-color: $secondary;
+    border-radius: 0.5rem;
+    border-color: $primary;
+    border-width: 0.2rem;
+    outline-color: $primary;
+}
