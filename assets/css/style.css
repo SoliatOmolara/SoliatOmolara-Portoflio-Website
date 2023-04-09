@@ -10905,6 +10905,12 @@ input[type=text]::-webkit-textfield-decoration-container {
   color: #380645;
 }
 
+.footer-sm__description {
+  font-family: "Poppins", sans-serif;
+  color: #d9a8f6;
+  font-size: 1.02rem;
+}
+
 .navbar li {
   padding: 0 0.7rem 0.7rem;
 }
@@ -10981,6 +10987,22 @@ input[type=text]::-webkit-textfield-decoration-container {
   border-color: #380645;
   border-width: 0.2rem;
   outline-color: #380645;
+}
+
+.footer-sm {
+  background-color: #380645;
+  padding: 1rem 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.footer-sm a {
+  color: #d9a8f6;
+}
+.footer-sm a i {
+  font-size: 1rem;
+  margin-left: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

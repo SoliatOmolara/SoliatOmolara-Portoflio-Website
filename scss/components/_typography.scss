@@ -135,3 +135,14 @@ input[type="text"]::-webkit-input-placeholder{
 input[type="text"]::-webkit-textfield-decoration-container{
     color: $primary;
 }
+
+// FOOTER SECTION
+.footer-sm{
+
+    &__description{
+        font-family:'Poppins', sans-serif;
+        color: $secondary;
+        font-size: 1.02rem
+    }
+
+}

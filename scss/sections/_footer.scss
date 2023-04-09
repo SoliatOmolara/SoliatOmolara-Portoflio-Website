@@ -1,0 +1,21 @@
+@use '../custom' as *;
+
+.footer-sm{
+    background-color: $primary;
+    padding: 1rem 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.footer-sm{
+
+    a{
+        color: $secondary;
+        
+        i{
+            font-size: 1rem;
+            margin-left: 1rem;
+        }
+    }
+}
